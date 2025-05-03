@@ -10272,7 +10272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:E_Switch-ANR11-H"
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:E_Switch-JS1300"
 			(at 91.44 99.06 0)
 			(effects
 				(font
