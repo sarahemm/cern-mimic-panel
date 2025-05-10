@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.24,
-          "width": 0.6
+          "drill": 3.2,
+          "height": 3.6,
+          "width": 3.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "shorting_items|111754000|80612000|d73ff75a-20c2-4f39-b85b-f75d39fb0de1|06e2bbfe-56be-4e5f-8f8f-c611d4c11a3b",
+          "lib_footprint_mismatch|114300000|64510000|d18465f5-280d-429d-93ac-ea304d5a313c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "shorting_items|111754000|85412000|136d0399-b3ba-414f-8d29-131aa3c444e7|8450341e-6ebf-4203-a9a0-91930a63678c",
+          "shorting_items|102864000|80612000|d73ff75a-20c2-4f39-b85b-f75d39fb0de1|06e2bbfe-56be-4e5f-8f8f-c611d4c11a3b",
+          ""
+        ],
+        [
+          "shorting_items|102864000|85412000|136d0399-b3ba-414f-8d29-131aa3c444e7|8450341e-6ebf-4203-a9a0-91930a63678c",
           ""
         ],
         [
@@ -80,19 +84,19 @@
           ""
         ],
         [
-          "solder_mask_bridge|111754000|80612000|d73ff75a-20c2-4f39-b85b-f75d39fb0de1|06e2bbfe-56be-4e5f-8f8f-c611d4c11a3b",
+          "solder_mask_bridge|102864000|80612000|d73ff75a-20c2-4f39-b85b-f75d39fb0de1|06e2bbfe-56be-4e5f-8f8f-c611d4c11a3b",
           ""
         ],
         [
-          "solder_mask_bridge|111754000|85412000|136d0399-b3ba-414f-8d29-131aa3c444e7|8450341e-6ebf-4203-a9a0-91930a63678c",
+          "solder_mask_bridge|102864000|85412000|136d0399-b3ba-414f-8d29-131aa3c444e7|8450341e-6ebf-4203-a9a0-91930a63678c",
           ""
         ],
         [
-          "starved_thermal|112374000|80112000|57f404c4-5411-43aa-9f73-2174538f031b|8fb663b7-4864-4813-873d-c0adbd1e44a3|F.Cu",
+          "starved_thermal|103484000|80112000|57f404c4-5411-43aa-9f73-2174538f031b|8fb663b7-4864-4813-873d-c0adbd1e44a3|F.Cu",
           ""
         ],
         [
-          "starved_thermal|112374000|80112000|57f404c4-5411-43aa-9f73-2174538f031b|e9f82342-4c61-4256-97b1-94d4968d6ed3|F.Cu",
+          "starved_thermal|103484000|80112000|57f404c4-5411-43aa-9f73-2174538f031b|e9f82342-4c61-4256-97b1-94d4968d6ed3|F.Cu",
           ""
         ],
         [
