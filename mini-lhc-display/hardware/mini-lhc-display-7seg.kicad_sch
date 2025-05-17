@@ -5374,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-HDSM-281x_283x"
 			(at 185.42 135.89 0)
 			(effects
 				(font
@@ -5535,7 +5535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-HDSM-281x_283x"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Fairchild-MSQC4XX1C"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-HDSM-281x_283x"
 			(at 157.48 135.89 0)
 			(effects
 				(font
@@ -6307,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-HDSM-281x_283x"
 			(at 129.54 135.89 0)
 			(effects
 				(font

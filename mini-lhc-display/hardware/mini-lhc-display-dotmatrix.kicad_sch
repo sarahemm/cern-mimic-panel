@@ -8288,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-QDSP-2536_2540"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -8620,7 +8620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-QDSP-2536_2540"
 			(at 139.7 29.21 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-QDSP-2536_2540"
 			(at 209.55 29.21 0)
 			(effects
 				(font
@@ -10548,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:Broadcom-QDSP-2536_2540"
 			(at 139.7 88.9 0)
 			(effects
 				(font

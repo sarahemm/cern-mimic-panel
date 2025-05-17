@@ -6067,7 +6067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 162.56 90.17 0)
 			(effects
 				(font
