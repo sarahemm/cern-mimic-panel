@@ -554,6 +554,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2291,6 +2398,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2662,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 158.75) (xy 161.29 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059934ef-9440-4668-9ed9-fa969c3b2642")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 214.63 95.25)
 		)
 		(stroke
@@ -2692,7 +2934,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 96.52) (xy 123.19 96.52)
+			(xy 163.83 152.4) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1044aec6-bbf1-4a24-a28b-6cd2e234097f")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 118.11 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 123.19 149.86)
+			(xy 111.76 138.43) (xy 118.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 147.32) (xy 123.19 147.32)
+			(xy 111.76 135.89) (xy 118.11 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 123.19 118.11)
+			(xy 111.76 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2862,13 +3114,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.65) (xy 123.19 120.65)
+			(xy 111.76 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "274cee8e-aa87-4d3d-9168-69328b103eec")
+	)
+	(wire
+		(pts
+			(xy 246.38 152.4) (xy 248.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27740cc0-33a8-40fc-a76e-35f2c63ebf46")
+	)
+	(wire
+		(pts
+			(xy 161.29 166.37) (xy 163.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27af9d57-c7e8-465c-a57c-ddcec6feb227")
 	)
 	(wire
 		(pts
@@ -2882,13 +3154,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 123.19 93.98)
+			(xy 111.76 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "293124e8-18d0-4e5c-ae79-18ddfa155a51")
+	)
+	(wire
+		(pts
+			(xy 201.93 143.51) (xy 199.39 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aabc4aa-041e-40c8-b80d-c75711ae16c6")
 	)
 	(wire
 		(pts
@@ -2902,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 123.19 115.57)
+			(xy 111.76 104.14) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3404,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 123.19 142.24)
+			(xy 201.93 156.21) (xy 199.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c642917-66ee-4c12-af93-fee6937ce4d5")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb51620-c079-45c0-b428-60b7e87ee441")
+	)
+	(wire
+		(pts
+			(xy 111.76 130.81) (xy 118.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3132,13 +3434,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 123.19 99.06)
+			(xy 111.76 87.63) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51eb65e1-5224-4be6-8b5e-3bbe1ae82540")
+	)
+	(wire
+		(pts
+			(xy 246.38 133.35) (xy 248.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528b240e-247e-4835-bb1d-683697309d08")
 	)
 	(wire
 		(pts
@@ -3262,6 +3574,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 139.7) (xy 248.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68da626a-1b01-4cda-9cd4-48263a1f4d08")
+	)
+	(wire
+		(pts
 			(xy 212.09 92.71) (xy 214.63 92.71)
 		)
 		(stroke
@@ -3382,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 149.86) (xy 199.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9d0db6-bcce-4c7c-a83a-7adb0b266f95")
+	)
+	(wire
+		(pts
 			(xy 199.39 76.2) (xy 214.63 76.2)
 		)
 		(stroke
@@ -3442,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 144.78) (xy 123.19 144.78)
+			(xy 111.76 133.35) (xy 118.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3542,6 +3874,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 148.59) (xy 38.1 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9440463c-f55e-4ff8-b588-c923dd0a95a1")
+	)
+	(wire
+		(pts
 			(xy 45.72 115.57) (xy 45.72 120.65)
 		)
 		(stroke
@@ -3562,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 119.38 123.19)
+			(xy 111.76 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3589,6 +3931,16 @@
 			(type default)
 		)
 		(uuid "9751d68a-c0a7-496c-be96-1530450492c9")
+	)
+	(wire
+		(pts
+			(xy 163.83 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976c4bcd-62a5-4649-9e30-5fe4fdf6d542")
 	)
 	(wire
 		(pts
@@ -3642,6 +3994,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e211f9e-5a62-48db-ab55-53487706f4a7")
+	)
+	(wire
+		(pts
+			(xy 163.83 133.35) (xy 161.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f98135b-9c98-409c-9284-491904e152bd")
+	)
+	(wire
+		(pts
 			(xy 199.39 73.66) (xy 214.63 73.66)
 		)
 		(stroke
@@ -3649,6 +4021,16 @@
 			(type default)
 		)
 		(uuid "a00c10bd-acb0-4f47-9538-4de3b1d6d9d1")
+	)
+	(wire
+		(pts
+			(xy 161.29 173.99) (xy 163.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cd1c8d-b78f-4471-9149-7c2c764c1007")
 	)
 	(wire
 		(pts
@@ -3672,6 +4054,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 137.16) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63bf3ec-746b-47c1-89aa-07a741ebd851")
+	)
+	(wire
+		(pts
 			(xy 50.8 69.85) (xy 50.8 72.39)
 		)
 		(stroke
@@ -3692,6 +4084,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 130.81) (xy 199.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b49792-b1ab-4820-88ac-b7e8e94007b7")
+	)
+	(wire
+		(pts
 			(xy 246.38 76.2) (xy 243.84 76.2)
 		)
 		(stroke
@@ -3699,6 +4101,16 @@
 			(type default)
 		)
 		(uuid "aa55c5d4-7275-4f78-a791-f9361fc655b7")
+	)
+	(wire
+		(pts
+			(xy 53.34 157.48) (xy 53.34 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab7fddd-3fdd-4f32-819d-6edeb0d644ad")
 	)
 	(wire
 		(pts
@@ -3762,7 +4174,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 125.73) (xy 123.19 125.73)
+			(xy 111.76 114.3) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3782,7 +4194,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 123.19 154.94)
+			(xy 111.76 143.51) (xy 118.11 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3809,6 +4221,16 @@
 			(type default)
 		)
 		(uuid "b65c531f-cd54-4cff-a32e-579559759af3")
+	)
+	(wire
+		(pts
+			(xy 246.38 146.05) (xy 248.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82cf2f2-2064-40bf-a0eb-03d050338c8d")
 	)
 	(wire
 		(pts
@@ -4012,6 +4434,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 158.75) (xy 248.92 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99b2ff9-176b-4f85-aebd-607e4ff6cabf")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 163.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da50a76d-0e7e-4816-8e49-3ab12b3a802c")
+	)
+	(wire
+		(pts
 			(xy 135.89 60.96) (xy 158.75 60.96)
 		)
 		(stroke
@@ -4039,6 +4481,16 @@
 			(type default)
 		)
 		(uuid "de0cc36c-4b1b-4d99-adc0-7d5ee341e237")
+	)
+	(wire
+		(pts
+			(xy 163.83 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de26bdd3-87a0-438b-8e64-425de320628c")
 	)
 	(wire
 		(pts
@@ -4092,7 +4544,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 101.6) (xy 116.84 101.6)
+			(xy 30.48 148.59) (xy 30.48 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8501f4c-e262-43da-b1ee-101908d7f9ef")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4594,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 123.19 91.44)
+			(xy 111.76 80.01) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4142,13 +4604,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 139.7) (xy 123.19 139.7)
+			(xy 111.76 128.27) (xy 118.11 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee7e6ab6-740a-4198-b7b5-23d93f64611b")
+	)
+	(wire
+		(pts
+			(xy 45.72 148.59) (xy 45.72 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2141a27-a5c7-43ae-8202-583cec51d8c9")
 	)
 	(wire
 		(pts
@@ -4172,6 +4644,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 124.46) (xy 201.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb852bab-093c-452c-9841-3c234604a129")
+	)
+	(wire
+		(pts
 			(xy 250.19 85.09) (xy 243.84 85.09)
 		)
 		(stroke
@@ -4182,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 119.38 101.6)
+			(xy 114.3 111.76) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4200,6 +4682,66 @@
 		)
 		(uuid "ff19e8a6-b92a-4078-8e81-05f4c11924dc")
 	)
+	(label "MTX_~{CE}_C"
+		(at 201.93 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07478b2f-5a03-4d0a-89bc-1eec364cdd49")
+	)
+	(label "7SEG_SCL"
+		(at 163.83 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5060f136-48e3-4520-8461-ad86cf60680e")
+	)
+	(label "MTX_~{RESET}"
+		(at 248.92 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b9026e-61d5-4b7f-a992-614830f0e8ef")
+	)
+	(label "MTX_~{RESET}"
+		(at 201.93 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "583fc802-f1c3-438c-953f-236addd9ed36")
+	)
+	(label "MTX_~{CE}_D"
+		(at 201.93 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66b9a066-a01f-4d95-8d7e-a77e55181283")
+	)
+	(label "MTX_FLASH"
+		(at 248.92 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "714e16dc-4723-4a21-8d2f-9cace7ae74a6")
+	)
 	(label "7SEG_SCL"
 		(at 146.05 60.96 180)
 		(effects
@@ -4210,6 +4752,56 @@
 		)
 		(uuid "769889d8-0ee0-4af6-8f97-c2116991ce89")
 	)
+	(label "MTX_FLASH"
+		(at 201.93 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88f50208-9a0c-4afc-956c-db91bb73868b")
+	)
+	(label "7SEG_SDA"
+		(at 163.83 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95a1ec90-cb6b-46be-a9ed-98365e327d6d")
+	)
+	(label "MTX_~{RD}"
+		(at 201.93 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99696ecf-c6ab-4fc5-8cc3-70d57139e7ff")
+	)
+	(label "MTX_~{WR}"
+		(at 201.93 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc036254-0ffa-49f3-937c-aa4796899516")
+	)
+	(label "MTX_~{WR}"
+		(at 248.92 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4ddce32-4656-4126-b2e0-9ae847ecdc10")
+	)
 	(label "7SEG_SDA"
 		(at 146.05 63.5 180)
 		(effects
@@ -4219,6 +4811,36 @@
 			(justify right bottom)
 		)
 		(uuid "dd884036-f0bc-4567-856a-255b254ffa54")
+	)
+	(label "MTX_~{RD}"
+		(at 248.92 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e13ab697-1702-4fda-917b-53c0fb797223")
+	)
+	(label "SPI_DATA_BEAM_MISC"
+		(at 201.93 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b2b4c6-47fa-4095-9bce-523439927268")
+	)
+	(label "SPI_DATA_BEAM_MISC"
+		(at 114.3 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9d4f9b5-a65b-4d87-a4aa-cbbe7a61f459")
 	)
 	(global_label "LED_LAT"
 		(shape output)
@@ -4288,7 +4910,7 @@
 	)
 	(global_label "LCD_A0"
 		(shape input)
-		(at 123.19 139.7 0)
+		(at 118.11 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4298,7 +4920,29 @@
 		)
 		(uuid "066b7314-26f2-4a87-83e8-2eaee8b05621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.009 139.7 0)
+			(at 127.929 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_BL_EN"
+		(shape passive)
+		(at 163.83 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11691165-63ce-45de-94a8-2d8ce95b4baa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.9848 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4954,7 @@
 	)
 	(global_label "LED_LAT"
 		(shape input)
-		(at 123.19 118.11 0)
+		(at 118.11 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4320,7 +4964,29 @@
 		)
 		(uuid "1dcbdc1a-cc75-42af-818b-aa64d937262f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.6742 118.11 0)
+			(at 128.5942 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_MCU_SDI"
+		(shape passive)
+		(at 201.93 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a40bc56-8891-40ab-9beb-2c5cdbd2645d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.3224 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,6 +5040,28 @@
 			)
 		)
 	)
+	(global_label "LINK_I2C_SDA"
+		(shape passive)
+		(at 163.83 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "364820b0-7963-48c0-b8a9-f42b9b6db844")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.5249 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_SPI_SCLK"
 		(shape output)
 		(at 156.21 76.2 180)
@@ -4398,7 +5086,7 @@
 	)
 	(global_label "LCD_MCU_SDO"
 		(shape input)
-		(at 123.19 147.32 0)
+		(at 118.11 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4408,7 +5096,7 @@
 		)
 		(uuid "3e202bb6-8a40-4447-beba-7cd2598bfa71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.5404 147.32 0)
+			(at 134.4604 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +5106,7 @@
 			)
 		)
 	)
-	(global_label "MTX_~{CE_A}"
+	(global_label "MTX_~{CE}_A"
 		(shape output)
 		(at 156.21 71.12 180)
 		(fields_autoplaced yes)
@@ -4462,7 +5150,7 @@
 			)
 		)
 	)
-	(global_label "MTX_~{CE_B}"
+	(global_label "MTX_~{CE}_B"
 		(shape output)
 		(at 252.73 71.12 0)
 		(fields_autoplaced yes)
@@ -4506,9 +5194,31 @@
 			)
 		)
 	)
+	(global_label "LED_LAT"
+		(shape passive)
+		(at 201.93 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44f0f704-01cd-4c32-a44c-780709371dc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3029 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_GSCLK"
 		(shape input)
-		(at 123.19 91.44 0)
+		(at 118.11 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4518,7 +5228,7 @@
 		)
 		(uuid "499d3bab-801e-407f-b9e5-dda4a7411aca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6375 91.44 0)
+			(at 131.5575 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +5326,29 @@
 			)
 		)
 	)
-	(global_label "MTX_~{CE_A}"
+	(global_label "LED_MCU_SDO"
+		(shape passive)
+		(at 201.93 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ac57aba-af61-4c28-a107-983791a40440")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.0481 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MTX_~{CE}_A"
 		(shape output)
 		(at 252.73 68.58 0)
 		(fields_autoplaced yes)
@@ -4640,7 +5372,7 @@
 	)
 	(global_label "LED_MCU_SDO"
 		(shape input)
-		(at 123.19 99.06 0)
+		(at 118.11 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4650,7 +5382,7 @@
 		)
 		(uuid "6b48518a-5724-40c5-ba66-d98972f1988c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4194 99.06 0)
+			(at 134.3394 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +5394,7 @@
 	)
 	(global_label "LCD_~{CS}"
 		(shape input)
-		(at 123.19 142.24 0)
+		(at 118.11 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +5404,29 @@
 		)
 		(uuid "6f91f497-d36e-45df-932a-09160e2b68ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1904 142.24 0)
+			(at 128.1104 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_A0"
+		(shape passive)
+		(at 163.83 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72ad2522-d5a0-4a59-9c73-83b1f9a2c44d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.5377 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +5438,7 @@
 	)
 	(global_label "LCD_~{RESET}"
 		(shape input)
-		(at 123.19 149.86 0)
+		(at 118.11 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4694,7 +5448,7 @@
 		)
 		(uuid "891f5895-6d99-46bc-a593-f3ed911cbadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.456 149.86 0)
+			(at 131.376 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +5504,7 @@
 	)
 	(global_label "LCD_BL_EN"
 		(shape input)
-		(at 123.19 154.94 0)
+		(at 118.11 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4760,7 +5514,7 @@
 		)
 		(uuid "a1b397a4-3fbd-4186-866c-601e88477995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.4561 154.94 0)
+			(at 131.3761 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +5526,7 @@
 	)
 	(global_label "LED_SPI_SCLK"
 		(shape input)
-		(at 123.19 120.65 0)
+		(at 118.11 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4782,7 +5536,51 @@
 		)
 		(uuid "a3790383-a53a-4e4c-b31a-40f8d317de46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4194 120.65 0)
+			(at 134.3394 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MTX_~{CE}_A"
+		(shape output)
+		(at 248.92 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a805fb8e-efa3-4ac3-a2d4-86953320f28d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.9765 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_~{RESET}"
+		(shape passive)
+		(at 163.83 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0ab1cae-565d-4ba1-92df-db6e0ac88799")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.9847 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,9 +5612,53 @@
 			)
 		)
 	)
+	(global_label "LCD_MCU_SDO"
+		(shape passive)
+		(at 163.83 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4cacd56-809e-405c-b46c-32a4a9ee48f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.0691 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_SPI_SCLK"
+		(shape passive)
+		(at 201.93 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba56c104-314f-46b1-9e80-73f383235c13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.0481 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_MCU_SDI"
 		(shape output)
-		(at 123.19 125.73 0)
+		(at 118.11 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4826,7 +5668,7 @@
 		)
 		(uuid "c1be46c6-cbf4-4152-8cbc-1962bce24ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6937 125.73 0)
+			(at 133.6137 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5680,7 @@
 	)
 	(global_label "LED_SPI_SCLK"
 		(shape input)
-		(at 123.19 96.52 0)
+		(at 118.11 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4848,7 +5690,7 @@
 		)
 		(uuid "c219e0f0-ed51-4b08-8678-869afa163664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4194 96.52 0)
+			(at 134.3394 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5724,7 @@
 	)
 	(global_label "LCD_SPI_SCLK"
 		(shape input)
-		(at 123.19 144.78 0)
+		(at 118.11 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4892,7 +5734,7 @@
 		)
 		(uuid "cddffcbb-e61c-4b33-a7fa-3db633f61ae4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.5404 144.78 0)
+			(at 134.4604 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5768,7 @@
 	)
 	(global_label "LED_GSCLK"
 		(shape input)
-		(at 123.19 115.57 0)
+		(at 118.11 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4936,7 +5778,51 @@
 		)
 		(uuid "d8aa2965-5c97-4495-b26d-b2de6c7d0d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6375 115.57 0)
+			(at 131.5575 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_GSCLK"
+		(shape passive)
+		(at 201.93 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e02545a3-ae71-4288-8615-e77da126c47e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.2662 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_~{CS}"
+		(shape passive)
+		(at 163.83 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4057069-a3af-443a-a19a-d6aaac21280a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.7191 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +5854,51 @@
 			)
 		)
 	)
-	(global_label "MTX_~{CE_B}"
+	(global_label "LINK_I2C_SCL"
+		(shape passive)
+		(at 163.83 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef509a29-de10-4708-8337-0304b68d8a31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.4644 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_SPI_SCLK"
+		(shape passive)
+		(at 163.83 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f164071c-16cc-48de-a778-218f5c0ca94b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.0691 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MTX_~{CE}_B"
 		(shape output)
 		(at 156.21 68.58 180)
 		(fields_autoplaced yes)
@@ -5036,7 +5966,7 @@
 	)
 	(global_label "LED_LAT"
 		(shape input)
-		(at 123.19 93.98 0)
+		(at 118.11 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5046,7 +5976,7 @@
 		)
 		(uuid "fa4b38f1-be29-4a37-8106-9f12213a6ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.6742 93.98 0)
+			(at 128.5942 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,6 +6005,138 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a086b1-ccc9-47ee-9f92-51f0324ce59e")
+		(property "Reference" "TP16"
+			(at 195.326 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_SPI_SCLK"
+			(at 198.882 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc46f53-cd95-4cff-89ad-4360abe6e74a")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a3761fb-32bf-4165-8f86-d3c9ec4ce5fd")
+		(property "Reference" "TP20"
+			(at 242.316 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MTX_~{RESET}"
+			(at 245.872 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44703de3-2b9d-4bcd-b86e-f382bc854320")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP20")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5143,6 +6205,72 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10b89eef-bd70-47a7-9a49-8f16412ebc2b")
+		(property "Reference" "TP10"
+			(at 157.226 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_~{CS}"
+			(at 160.782 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d434c24c-da10-4f72-8a51-9afd1ea0a506")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5353,6 +6481,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba903b7-e4b5-4496-bd78-e7854ef3208e")
+		(property "Reference" "#PWR062"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88bb41af-f0d2-4de7-a3fb-a807708cd108")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 80.01 0)
 		(mirror x)
@@ -5493,6 +6687,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "274d6835-d509-4bb6-b5d3-9e01936ebca8")
+		(property "Reference" "TP18"
+			(at 242.316 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MTX_FLASH"
+			(at 245.872 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "331ef696-cab5-4df7-abaf-9b384e07807f")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2914963a-4646-4adb-b1b0-f8d604a14952")
+		(property "Reference" "TP1"
+			(at 40.386 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 37.846 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05a79d8-aeb3-4dcc-9cbd-14c5c323550b")
+		)
+		(instances
+			(project ""
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 27.94 115.57 0)
 		(mirror y)
@@ -5557,6 +6882,204 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3273ea1a-3740-441f-8cd2-d9fba73d83eb")
+		(property "Reference" "TP15"
+			(at 195.326 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_GSCLK"
+			(at 198.882 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c28ba2b-ddc0-48ee-a5ce-90bbc2dc77a4")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a293cf-918e-49f2-9112-f50a3cf96c90")
+		(property "Reference" "#PWR060"
+			(at 45.72 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072b78d0-9cb8-49d1-b97f-f1f6187ee20f")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ec7032-d9b2-4c98-8c4b-a03cdcd3e55b")
+		(property "Reference" "TP6"
+			(at 157.226 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_BL_EN"
+			(at 160.782 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25dc5fdd-c10b-4123-a415-515a35365692")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5777,6 +7300,270 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b220c1f-6ef8-4e4e-8dd9-6762f6a888df")
+		(property "Reference" "TP11"
+			(at 157.226 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_A0"
+			(at 160.782 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3514088-3c06-421f-812e-cdaf95637d08")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51173e82-d980-4465-8469-20be71e551dd")
+		(property "Reference" "TP22"
+			(at 157.226 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7SEG_SCL"
+			(at 160.782 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "895e1501-588c-48eb-a30d-ad8bdef28bf8")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "521aeb1b-9cb1-4299-9d76-9419fa7064bd")
+		(property "Reference" "TP8"
+			(at 157.226 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_SCLK"
+			(at 160.782 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f5891c-d29e-425d-8571-22295d105ce2")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 30.48 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523ffc8d-d480-4a71-9d67-f735198240d6")
+		(property "Reference" "#PWR063"
+			(at 30.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13510ceb-709e-4780-936b-e1ac2a50cc3d")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 90.17 0)
 		(unit 1)
@@ -5836,6 +7623,138 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "642436f4-ed13-46cb-b783-27818d28f639")
+		(property "Reference" "TP14"
+			(at 195.326 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_LAT"
+			(at 198.882 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "788f0199-e733-473f-acf5-68413483dcf9")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "650ef1cf-dd5e-4c3d-9cdb-a17a0381dbc8")
+		(property "Reference" "TP24"
+			(at 195.326 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SPI_DATA_BEAM_MISC"
+			(at 198.882 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5477f5e-6e84-4bea-ba03-fc2ac2a2b0c8")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -5974,6 +7893,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d3710b7-319e-44a9-bdf1-2fa9aaaf7bdf")
+		(property "Reference" "TP3"
+			(at 51.054 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.594 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5c44f7b-a0fd-4411-9ab2-b0266825181c")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e792bb3-e0cb-47cc-8749-7b3b21774374")
+		(property "Reference" "TP7"
+			(at 157.226 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_~{RESET}"
+			(at 160.782 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82898fdd-7220-48ae-988c-d6e5cf8d6a78")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 27.94 106.68 0)
 		(unit 1)
@@ -6034,6 +8084,72 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "859ceb9e-2aa5-4cc9-a803-7de528803035")
+		(property "Reference" "TP4"
+			(at 157.226 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LINK_I2C_SCL"
+			(at 160.782 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9da13a-b560-44b8-8acc-f6dfbb6b4382")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6104,6 +8220,72 @@
 			(project ""
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c61a73c-2802-4573-8a09-4b5027e31a69")
+		(property "Reference" "TP9"
+			(at 157.226 148.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LCD_DATA"
+			(at 160.782 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0531d9cc-1239-4067-9e75-937b0b2711fe")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -6308,6 +8490,72 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f82dba5-fab4-4466-92c7-d82fb999ff38")
+		(property "Reference" "TP17"
+			(at 242.316 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MTX_~{CE}_A"
+			(at 245.872 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4e6dd79-352c-4cf5-a735-f47d58174c87")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -6575,6 +8823,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 53.34 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39bba8d-e6b1-424d-8fe0-b6c7b6b914bb")
+		(property "Reference" "#PWR061"
+			(at 53.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ce42b8-4521-480a-9e6b-9c1f49337b33")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3def6e0-eb61-49c6-bfd4-da1d72938d8c")
+		(property "Reference" "TP5"
+			(at 157.226 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LINK_I2C_SDA"
+			(at 160.782 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34ff41f-f090-44c4-921e-8d53b60d741c")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 115.57 0)
 		(mirror y)
@@ -6639,6 +9019,72 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc261c11-bf4b-46ac-a7c0-eb063de4bdfd")
+		(property "Reference" "TP13"
+			(at 195.326 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_MCU_SDO"
+			(at 198.882 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d5a45fb-50f3-4f48-a6f0-4f1f1e9da021")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -6712,6 +9158,72 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3020d33-e352-4944-beb7-a11b92c0b520")
+		(property "Reference" "TP19"
+			(at 242.316 148.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MTX_~{RD}"
+			(at 245.872 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd98a9a6-fbe0-4776-9977-8126c8621a1f")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -6940,6 +9452,202 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96e2553-3f6e-40c2-aa10-f9a722632cc6")
+		(property "Reference" "TP2"
+			(at 48.006 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.466 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75570ff9-0875-4b80-8b8a-6a568be0ffe8")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d03ee59b-4f67-4506-a410-a094ad2d8cba")
+		(property "Reference" "TP25"
+			(at 32.766 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+15V"
+			(at 30.226 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b9937f-dc0c-42c3-92ec-3b0c4e3e08de")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d76c85bd-1c37-4e07-9fea-506feefa76cc")
+		(property "Reference" "TP12"
+			(at 195.326 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_MCU_SDI"
+			(at 198.882 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6f1ae6-69b4-4c6d-a783-3329410387f0")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 22.86 0)
 		(mirror y)
@@ -7065,6 +9773,138 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb2d8592-3b0a-4304-b674-0c30d4b9f0ff")
+		(property "Reference" "TP21"
+			(at 242.316 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MTX_~{WR}"
+			(at 245.872 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c80e5721-f686-47c7-b164-4836bdd5dd6d")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb5a1a3-4af0-4b2f-9caf-e9abc1b54b05")
+		(property "Reference" "TP23"
+			(at 157.226 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7SEG_SDA"
+			(at 160.782 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1eb05fe-593b-4c91-8e63-67c1b28f3abd")
+		)
+		(instances
+			(project "mini-lhc-display"
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -7452,7 +10292,7 @@
 		)
 	)
 	(sheet
-		(at 92.075 87.63)
+		(at 86.995 76.2)
 		(size 24.765 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7468,7 +10308,7 @@
 		)
 		(uuid "49c53e67-72f1-41c3-a104-e1c9b469dc16")
 		(property "Sheetname" "Beam LEDs"
-			(at 92.075 86.9184 0)
+			(at 86.995 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +10317,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-beamleds.kicad_sch"
-			(at 92.075 105.9946 0)
+			(at 86.995 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +10326,7 @@
 			)
 		)
 		(pin "GSCLK" input
-			(at 116.84 91.44 0)
+			(at 111.76 80.01 0)
 			(uuid "25f40dc7-0a58-4c54-804c-ff26977de474")
 			(effects
 				(font
@@ -7496,7 +10336,7 @@
 			)
 		)
 		(pin "LAT" input
-			(at 116.84 93.98 0)
+			(at 111.76 82.55 0)
 			(uuid "4a88c3ac-d79b-4094-a47b-96483eb28cf4")
 			(effects
 				(font
@@ -7506,7 +10346,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 116.84 96.52 0)
+			(at 111.76 85.09 0)
 			(uuid "0b67e713-7fbe-480e-b318-b97f6fd37622")
 			(effects
 				(font
@@ -7516,7 +10356,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 116.84 99.06 0)
+			(at 111.76 87.63 0)
 			(uuid "a9c1b11d-858f-429c-a192-61d440786cc9")
 			(effects
 				(font
@@ -7526,7 +10366,7 @@
 			)
 		)
 		(pin "SDO" output
-			(at 116.84 101.6 0)
+			(at 111.76 90.17 0)
 			(uuid "2ae9238c-3116-4aec-b83d-56b141085cdd")
 			(effects
 				(font
@@ -7544,7 +10384,7 @@
 		)
 	)
 	(sheet
-		(at 92.075 111.76)
+		(at 86.995 100.33)
 		(size 24.765 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7560,7 +10400,7 @@
 		)
 		(uuid "62beb831-9639-4b23-bf22-454c7b0bfd11")
 		(property "Sheetname" "Misc. LEDs"
-			(at 92.075 111.0484 0)
+			(at 86.995 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +10409,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-miscleds.kicad_sch"
-			(at 92.075 129.4896 0)
+			(at 86.995 118.0596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +10418,7 @@
 			)
 		)
 		(pin "GSCLK" input
-			(at 116.84 115.57 0)
+			(at 111.76 104.14 0)
 			(uuid "5d7fa522-9dc0-4677-a7af-ddc12f442e50")
 			(effects
 				(font
@@ -7588,7 +10428,7 @@
 			)
 		)
 		(pin "LAT" input
-			(at 116.84 118.11 0)
+			(at 111.76 106.68 0)
 			(uuid "7b736b48-45f8-4934-9990-0d3efc5f4b8e")
 			(effects
 				(font
@@ -7598,7 +10438,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 116.84 120.65 0)
+			(at 111.76 109.22 0)
 			(uuid "d2544498-beb2-404c-9726-eb1e1357c6d7")
 			(effects
 				(font
@@ -7608,7 +10448,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 116.84 123.19 0)
+			(at 111.76 111.76 0)
 			(uuid "31eeeeb1-0634-4c97-895a-049cb37adc7f")
 			(effects
 				(font
@@ -7618,7 +10458,7 @@
 			)
 		)
 		(pin "SDO" output
-			(at 116.84 125.73 0)
+			(at 111.76 114.3 0)
 			(uuid "28099641-2e9c-4f6a-8e8e-aeb9fc0e63ff")
 			(effects
 				(font
@@ -7636,7 +10476,7 @@
 		)
 	)
 	(sheet
-		(at 91.567 135.636)
+		(at 86.487 124.206)
 		(size 25.273 21.844)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7652,7 +10492,7 @@
 		)
 		(uuid "e0b67437-cb6f-4a1a-badb-cc4b74146847")
 		(property "Sheetname" "LCD"
-			(at 91.567 134.9244 0)
+			(at 86.487 123.4944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +10501,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-lcd.kicad_sch"
-			(at 91.567 158.0646 0)
+			(at 86.487 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +10510,7 @@
 			)
 		)
 		(pin "A0" input
-			(at 116.84 139.7 0)
+			(at 111.76 128.27 0)
 			(uuid "79f86323-df87-4d7c-9e74-9c017aba07c2")
 			(effects
 				(font
@@ -7680,7 +10520,7 @@
 			)
 		)
 		(pin "BL_EN" input
-			(at 116.84 154.94 0)
+			(at 111.76 143.51 0)
 			(uuid "3eeab063-e2db-4bb6-b84d-e6ebd407d858")
 			(effects
 				(font
@@ -7690,7 +10530,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 116.84 144.78 0)
+			(at 111.76 133.35 0)
 			(uuid "6ae6ad0c-50f1-4c59-bef3-27007b813d41")
 			(effects
 				(font
@@ -7700,7 +10540,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 116.84 147.32 0)
+			(at 111.76 135.89 0)
 			(uuid "b37913aa-4910-4ea7-8dde-debdffccbcb8")
 			(effects
 				(font
@@ -7710,7 +10550,7 @@
 			)
 		)
 		(pin "~{CS}" input
-			(at 116.84 142.24 0)
+			(at 111.76 130.81 0)
 			(uuid "837a407e-3800-4213-8c32-698f960f557f")
 			(effects
 				(font
@@ -7720,7 +10560,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 116.84 149.86 0)
+			(at 111.76 138.43 0)
 			(uuid "4dac8b9c-3aa2-475b-bff5-afc9df156e21")
 			(effects
 				(font
