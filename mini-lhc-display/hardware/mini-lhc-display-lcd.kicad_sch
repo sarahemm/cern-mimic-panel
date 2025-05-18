@@ -317,39 +317,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Graphic:EA_DOGL128X-6"
+		(symbol "Display_Graphic:EA_DOGM128X-6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "DSP10"
-				(at 12.3033 -20.32 0)
+			(property "Reference" "U"
+				(at -11.43 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "EA_DOGL128X-6"
-				(at 12.3033 -22.86 0)
+			(property "Value" "EA_DOGM128X-6"
+				(at 19.05 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Display:EA_DOGL128-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Display:EA_DOGM128-6"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -357,7 +346,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "EA DOGL128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V"
+			(property "Datasheet" "https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "EA DOGM128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,7 +373,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "EA*DOGL128*6*"
+			(property "ki_fp_filters" "EA*DOGM128*6*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,7 +382,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EA_DOGL128X-6_1_1"
+			(symbol "EA_DOGM128X-6_1_1"
 				(rectangle
 					(start -12.7 17.78)
 					(end 12.7 -17.78)
@@ -649,7 +647,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 5.08 20.32 270)
 					(length 2.54)
 					(name "A1+"
@@ -667,7 +665,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 5.08 -20.32 90)
 					(length 2.54)
 					(name "C1-"
@@ -685,7 +683,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 7.62 20.32 270)
 					(length 2.54)
 					(name "A2+"
@@ -703,7 +701,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 7.62 -20.32 90)
 					(length 2.54)
 					(name "C2-"
@@ -721,7 +719,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 10.16 20.32 270)
 					(length 2.54)
 					(name "A3+"
@@ -739,7 +737,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 10.16 -20.32 90)
 					(length 2.54)
 					(name "C3-"
@@ -1301,12 +1299,6 @@
 		)
 	)
 	(junction
-		(at 148.59 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "084fdd33-37dd-4299-820b-f2ddd1780ca8")
-	)
-	(junction
 		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1323,6 +1315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37329c5c-d39a-41ae-8f47-fdf72bd36b96")
+	)
+	(junction
+		(at 148.59 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f05692-e8e1-4ae5-a270-f4aa4c3c502d")
 	)
 	(junction
 		(at 177.8 90.17)
@@ -1416,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 64.77) (xy 151.13 64.77)
+			(xy 148.59 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 64.77) (xy 148.59 64.77)
+			(xy 146.05 63.5) (xy 148.59 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1503,6 +1501,16 @@
 			(type default)
 		)
 		(uuid "28aa6671-bff7-42ad-8a04-59851e0bdafd")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abd31cd-239f-4926-861a-eff85daca8b7")
 	)
 	(wire
 		(pts
@@ -1976,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 63.5) (xy 148.59 64.77)
+			(xy 148.59 62.23) (xy 148.59 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2096,17 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 64.77) (xy 148.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb62203-2fab-4261-a8a0-2eb485828dd2")
-	)
-	(wire
-		(pts
-			(xy 151.13 64.77) (xy 151.13 67.31)
+			(xy 151.13 63.5) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2136,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 146.05 64.77)
+			(xy 146.05 67.31) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2299,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 63.5 0)
+		(at 148.59 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2310,7 +2308,7 @@
 		(fields_autoplaced yes)
 		(uuid "079ae206-19ae-4a26-9dab-205b9e65dd50")
 		(property "Reference" "#PWR058"
-			(at 148.59 67.31 0)
+			(at 148.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2317,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 148.59 58.42 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 63.5 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 63.5 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 63.5 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2640,7 @@
 		(dnp no)
 		(uuid "389ab12a-cc07-4c12-9051-b689957615a5")
 		(property "Reference" "R4"
-			(at 147.32 68.58 90)
+			(at 147.32 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,8 +2648,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 147.32 75.946 90)
+		(property "Value" "42.2"
+			(at 147.32 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2709,7 @@
 		(dnp no)
 		(uuid "45755243-8957-4d87-bcdd-40304765b150")
 		(property "Reference" "R6"
-			(at 152.4 68.58 90)
+			(at 152.4 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,8 +2717,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 152.4 75.946 90)
+		(property "Value" "42.2"
+			(at 152.4 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,6 +2763,148 @@
 			(project "mini-lhc-display"
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848/e0b67437-cb6f-4a1a-badb-cc4b74146847"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Display_Graphic:EA_DOGM128X-6")
+		(at 140.97 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a98367b-987b-4015-bab6-4d44715ea334")
+		(property "Reference" "U10"
+			(at 153.2733 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EA_DOGM128X-6"
+			(at 153.2733 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Display:EA_DOGM128-6"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EA DOGM128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "062b638d-019d-4d7f-bf2d-427999d6f833")
+		)
+		(pin "36"
+			(uuid "6fbe44b7-a481-4c99-a2a5-139d2f0ac2dc")
+		)
+		(pin "19"
+			(uuid "4846a6b4-5075-43aa-825a-f7768a8a94d8")
+		)
+		(pin "21"
+			(uuid "859d453d-6cd7-4e39-8dec-763774f5bb2f")
+		)
+		(pin "1"
+			(uuid "66fb9f97-1c04-470f-a6db-448014f8a40d")
+		)
+		(pin "2"
+			(uuid "27930440-78c5-4947-88f2-de344950fcf3")
+		)
+		(pin "30"
+			(uuid "6933649b-08ba-4616-b7ff-60b89c09a28e")
+		)
+		(pin "29"
+			(uuid "3f6de441-317f-468e-bb5d-ff5d41f2e797")
+		)
+		(pin "35"
+			(uuid "40abb6c4-0ffb-45ba-9dd4-d6b82a92aed6")
+		)
+		(pin "23"
+			(uuid "74187952-d82a-4716-8094-ee2846459a51")
+		)
+		(pin "25"
+			(uuid "5eda6b49-5c03-426d-81cc-9d44bba40e17")
+		)
+		(pin "34"
+			(uuid "e0c4ce59-3695-4705-8aff-3bff10c79c22")
+		)
+		(pin "37"
+			(uuid "3f9a210f-9bfa-4ccf-a54d-c675b0518506")
+		)
+		(pin "40"
+			(uuid "5038983c-b666-49f7-873f-ef1cd7a089d3")
+		)
+		(pin "38"
+			(uuid "2a2e178b-dc15-4634-83af-43c93ff8a0fe")
+		)
+		(pin "20"
+			(uuid "e32193f2-bb33-4375-a7eb-5dc79b042412")
+		)
+		(pin "24"
+			(uuid "58996bbd-7c07-4cb2-8471-a5a5e5335721")
+		)
+		(pin "39"
+			(uuid "9a7fafc3-0d8f-4606-ad56-025d83e934af")
+		)
+		(pin "26"
+			(uuid "c3ccc980-0bdb-4d59-ac7c-351313cfe9dd")
+		)
+		(pin "33"
+			(uuid "e45f269d-4cd0-468f-bd85-7dc96e7aa318")
+		)
+		(pin "28"
+			(uuid "8229068a-9662-4562-9bc5-9bc73b190b53")
+		)
+		(pin "31"
+			(uuid "160cc968-3eed-4435-9b3d-d21209ae1378")
+		)
+		(pin "3"
+			(uuid "7c7e62ac-99b1-46a4-a1b9-218335e65d95")
+		)
+		(pin "22"
+			(uuid "34078861-093e-447c-aab2-cc8c814dce55")
+		)
+		(pin "27"
+			(uuid "d9fb87b6-12f1-44e2-b8f3-5b713a4ece9b")
+		)
+		(pin "32"
+			(uuid "05611782-998a-4e2b-b2f6-4a1788ece864")
+		)
+		(instances
+			(project ""
+				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848/e0b67437-cb6f-4a1a-badb-cc4b74146847"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2847,7 +2987,7 @@
 		(dnp no)
 		(uuid "64f87687-6c88-4ed7-9393-3a4821588ef3")
 		(property "Reference" "R5"
-			(at 149.86 68.58 90)
+			(at 149.86 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,8 +2995,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 149.86 75.946 90)
+		(property "Value" "42.2"
+			(at 149.86 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,148 +3108,6 @@
 			(project ""
 				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848/e0b67437-cb6f-4a1a-badb-cc4b74146847"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Display_Graphic:EA_DOGL128X-6")
-		(at 140.97 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "943bf6b7-8ca6-4e5f-aa88-aad189285169")
-		(property "Reference" "DSP10"
-			(at 153.2733 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EA_DOGL128X-6"
-			(at 153.2733 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Display:EA_DOGL128-6"
-			(at 140.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf"
-			(at 140.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EA DOGL128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V"
-			(at 140.97 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "30"
-			(uuid "adbf5924-c36c-42fb-8cbb-19d4ad15097f")
-		)
-		(pin "26"
-			(uuid "fb68451b-d763-4a95-8fba-0945daf6c5b4")
-		)
-		(pin "2"
-			(uuid "e6d9715c-2350-4b56-aef3-3ee72587dbf1")
-		)
-		(pin "31"
-			(uuid "d8e1130e-fd89-4b5f-9035-c58133877ccf")
-		)
-		(pin "22"
-			(uuid "68fc63bf-07fd-40c2-ba5f-5ab424fc98db")
-		)
-		(pin "18"
-			(uuid "9ecb2637-acf3-408c-8874-29efb5883098")
-		)
-		(pin "28"
-			(uuid "6084d04b-6f7b-4e4f-b0c7-3d6e343210b3")
-		)
-		(pin "33"
-			(uuid "fb928eb5-b864-4f8e-9c69-1695b0017ddd")
-		)
-		(pin "27"
-			(uuid "10293478-67da-4fd5-a0d9-10e2a767bad8")
-		)
-		(pin "35"
-			(uuid "78769459-5d5a-4c5f-abd2-744bc096a4e6")
-		)
-		(pin "29"
-			(uuid "e9eb521e-8283-4117-aed1-49e5e807f860")
-		)
-		(pin "3"
-			(uuid "afe86e4c-603c-488b-94f6-eae793c63e1d")
-		)
-		(pin "21"
-			(uuid "f3da5091-4579-445e-8c29-42f108cbe454")
-		)
-		(pin "24"
-			(uuid "17cfb410-5eff-4d3b-b4b6-ff32f8aac54f")
-		)
-		(pin "19"
-			(uuid "60a370c3-d2e1-46d5-8fd6-ad7116b20cc7")
-		)
-		(pin "23"
-			(uuid "80304d01-ea29-4ca5-ac9e-668caa9b9529")
-		)
-		(pin "1"
-			(uuid "e77961fb-44b9-408f-ab1d-3ce506b6f55e")
-		)
-		(pin "39"
-			(uuid "70e2e3dc-0bab-4162-9738-f8cc978013d6")
-		)
-		(pin "25"
-			(uuid "2f53e1be-3a99-4be8-858f-0f1ad59a9490")
-		)
-		(pin "36"
-			(uuid "2cca6a7a-53da-4f0f-b666-a067b75841e4")
-		)
-		(pin "34"
-			(uuid "6716410a-756d-49bc-bf6b-90e700ae6b4b")
-		)
-		(pin "37"
-			(uuid "374353e6-4808-4358-8067-564ebbfe521d")
-		)
-		(pin "40"
-			(uuid "951e2908-2d78-45e5-8d7a-f9f9d141441a")
-		)
-		(pin "38"
-			(uuid "2a50d684-b71c-4d62-888f-2d6df4c70ada")
-		)
-		(pin "32"
-			(uuid "b0cdebb2-a295-43dd-90d6-e9a5c1f52ad7")
-		)
-		(pin "20"
-			(uuid "9e330854-1ccc-41c4-9b9f-2ddd65fb2dfb")
-		)
-		(instances
-			(project ""
-				(path "/aa68df60-ec6b-4157-a0c0-b240e170e848/e0b67437-cb6f-4a1a-badb-cc4b74146847"
-					(reference "DSP10")
 					(unit 1)
 				)
 			)
