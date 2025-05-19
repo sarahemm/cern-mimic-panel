@@ -3284,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 84.074) (xy 121.793 84.074)
+			(xy 115.57 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 137.414) (xy 121.793 137.414)
+			(xy 115.57 137.16) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 134.874) (xy 121.793 134.874)
+			(xy 115.57 134.62) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3404,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 105.664) (xy 121.793 105.664)
+			(xy 115.57 105.41) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3474,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 108.204) (xy 121.793 108.204)
+			(xy 115.57 107.95) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 81.534) (xy 121.793 81.534)
+			(xy 115.57 81.28) (xy 121.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 103.124) (xy 121.793 103.124)
+			(xy 115.57 102.87) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 129.794) (xy 121.793 129.794)
+			(xy 115.57 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3964,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 86.614) (xy 121.793 86.614)
+			(xy 115.57 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4414,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 132.334) (xy 121.793 132.334)
+			(xy 115.57 132.08) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4554,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 110.744) (xy 117.983 110.744)
+			(xy 115.57 110.49) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4874,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 113.284) (xy 121.793 113.284)
+			(xy 115.57 113.03) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 142.494) (xy 121.793 142.494)
+			(xy 115.57 142.24) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.983 89.154) (xy 115.443 89.154)
+			(xy 118.11 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5484,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 78.994) (xy 121.793 78.994)
+			(xy 115.57 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5504,7 +5504,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.443 127.254) (xy 121.793 127.254)
+			(xy 115.57 127) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5574,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.983 110.744) (xy 117.983 89.154)
+			(xy 118.11 110.49) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5753,7 +5753,7 @@
 		(uuid "e8b2b4c6-47fa-4095-9bce-523439927268")
 	)
 	(label "SPI_DATA_BEAM_MISC"
-		(at 117.983 99.314 0)
+		(at 118.11 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5830,7 +5830,7 @@
 	)
 	(global_label "LCD_A0"
 		(shape input)
-		(at 121.793 127.254 0)
+		(at 121.92 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5840,7 +5840,7 @@
 		)
 		(uuid "066b7314-26f2-4a87-83e8-2eaee8b05621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.612 127.254 0)
+			(at 131.739 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +5874,7 @@
 	)
 	(global_label "LED_LAT"
 		(shape input)
-		(at 121.793 105.664 0)
+		(at 121.92 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5884,7 +5884,7 @@
 		)
 		(uuid "1dcbdc1a-cc75-42af-818b-aa64d937262f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2772 105.664 0)
+			(at 132.4042 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6006,7 @@
 	)
 	(global_label "LCD_MCU_SDO"
 		(shape input)
-		(at 121.793 134.874 0)
+		(at 121.92 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6016,7 +6016,7 @@
 		)
 		(uuid "3e202bb6-8a40-4447-beba-7cd2598bfa71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.1434 134.874 0)
+			(at 138.2704 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6138,7 @@
 	)
 	(global_label "LED_GSCLK"
 		(shape input)
-		(at 121.793 78.994 0)
+		(at 121.92 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6148,7 +6148,7 @@
 		)
 		(uuid "499d3bab-801e-407f-b9e5-dda4a7411aca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2405 78.994 0)
+			(at 135.3675 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6292,7 @@
 	)
 	(global_label "LED_MCU_SDO"
 		(shape input)
-		(at 121.793 86.614 0)
+		(at 121.92 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6302,7 +6302,7 @@
 		)
 		(uuid "6b48518a-5724-40c5-ba66-d98972f1988c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0224 86.614 0)
+			(at 138.1494 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6314,7 @@
 	)
 	(global_label "LCD_~{CS}"
 		(shape input)
-		(at 121.793 129.794 0)
+		(at 121.92 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6324,7 +6324,7 @@
 		)
 		(uuid "6f91f497-d36e-45df-932a-09160e2b68ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7934 129.794 0)
+			(at 131.9204 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6358,7 @@
 	)
 	(global_label "LCD_~{RESET}"
 		(shape input)
-		(at 121.793 137.414 0)
+		(at 121.92 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6368,7 +6368,7 @@
 		)
 		(uuid "891f5895-6d99-46bc-a593-f3ed911cbadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.059 137.414 0)
+			(at 135.186 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6424,7 @@
 	)
 	(global_label "LCD_BL_EN"
 		(shape input)
-		(at 121.793 142.494 0)
+		(at 121.92 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6434,7 +6434,7 @@
 		)
 		(uuid "a1b397a4-3fbd-4186-866c-601e88477995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0591 142.494 0)
+			(at 135.1861 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 	)
 	(global_label "LED_SPI_SCLK"
 		(shape input)
-		(at 121.793 108.204 0)
+		(at 121.92 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6456,7 +6456,7 @@
 		)
 		(uuid "a3790383-a53a-4e4c-b31a-40f8d317de46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0224 108.204 0)
+			(at 138.1494 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 	)
 	(global_label "LED_MCU_SDI"
 		(shape output)
-		(at 121.793 113.284 0)
+		(at 121.92 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6588,7 +6588,7 @@
 		)
 		(uuid "c1be46c6-cbf4-4152-8cbc-1962bce24ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.2967 113.284 0)
+			(at 137.4237 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6600,7 @@
 	)
 	(global_label "LED_SPI_SCLK"
 		(shape input)
-		(at 121.793 84.074 0)
+		(at 121.92 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6610,7 +6610,7 @@
 		)
 		(uuid "c219e0f0-ed51-4b08-8678-869afa163664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0224 84.074 0)
+			(at 138.1494 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +6644,7 @@
 	)
 	(global_label "LCD_SPI_SCLK"
 		(shape input)
-		(at 121.793 132.334 0)
+		(at 121.92 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6654,7 +6654,7 @@
 		)
 		(uuid "cddffcbb-e61c-4b33-a7fa-3db633f61ae4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.1434 132.334 0)
+			(at 138.2704 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 	)
 	(global_label "LED_GSCLK"
 		(shape input)
-		(at 121.793 103.124 0)
+		(at 121.92 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6698,7 +6698,7 @@
 		)
 		(uuid "d8aa2965-5c97-4495-b26d-b2de6c7d0d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2405 103.124 0)
+			(at 135.3675 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6886,7 @@
 	)
 	(global_label "LED_LAT"
 		(shape input)
-		(at 121.793 81.534 0)
+		(at 121.92 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6896,7 +6896,7 @@
 		)
 		(uuid "fa4b38f1-be29-4a37-8106-9f12213a6ec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2772 81.534 0)
+			(at 132.4042 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380"
+		(property "Footprint" "sen_Connector_RJ:Amphenol-RJLSE4018101"
 			(at 36.83 36.195 90)
 			(effects
 				(font
@@ -12801,7 +12801,7 @@
 		)
 	)
 	(sheet
-		(at 90.678 75.184)
+		(at 90.805 74.93)
 		(size 24.765 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12817,7 +12817,7 @@
 		)
 		(uuid "49c53e67-72f1-41c3-a104-e1c9b469dc16")
 		(property "Sheetname" "Beam LEDs"
-			(at 90.678 74.4724 0)
+			(at 90.805 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12826,7 +12826,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-beamleds.kicad_sch"
-			(at 90.678 93.5486 0)
+			(at 90.805 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,7 +12835,7 @@
 			)
 		)
 		(pin "GSCLK" input
-			(at 115.443 78.994 0)
+			(at 115.57 78.74 0)
 			(uuid "25f40dc7-0a58-4c54-804c-ff26977de474")
 			(effects
 				(font
@@ -12845,7 +12845,7 @@
 			)
 		)
 		(pin "LAT" input
-			(at 115.443 81.534 0)
+			(at 115.57 81.28 0)
 			(uuid "4a88c3ac-d79b-4094-a47b-96483eb28cf4")
 			(effects
 				(font
@@ -12855,7 +12855,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 115.443 84.074 0)
+			(at 115.57 83.82 0)
 			(uuid "0b67e713-7fbe-480e-b318-b97f6fd37622")
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 115.443 86.614 0)
+			(at 115.57 86.36 0)
 			(uuid "a9c1b11d-858f-429c-a192-61d440786cc9")
 			(effects
 				(font
@@ -12875,7 +12875,7 @@
 			)
 		)
 		(pin "SDO" output
-			(at 115.443 89.154 0)
+			(at 115.57 88.9 0)
 			(uuid "2ae9238c-3116-4aec-b83d-56b141085cdd")
 			(effects
 				(font
@@ -12893,7 +12893,7 @@
 		)
 	)
 	(sheet
-		(at 90.678 99.314)
+		(at 90.805 99.06)
 		(size 24.765 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12909,7 +12909,7 @@
 		)
 		(uuid "62beb831-9639-4b23-bf22-454c7b0bfd11")
 		(property "Sheetname" "Misc. LEDs"
-			(at 90.678 98.6024 0)
+			(at 90.805 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12918,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-miscleds.kicad_sch"
-			(at 90.678 117.0436 0)
+			(at 90.805 116.7896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +12927,7 @@
 			)
 		)
 		(pin "GSCLK" input
-			(at 115.443 103.124 0)
+			(at 115.57 102.87 0)
 			(uuid "5d7fa522-9dc0-4677-a7af-ddc12f442e50")
 			(effects
 				(font
@@ -12937,7 +12937,7 @@
 			)
 		)
 		(pin "LAT" input
-			(at 115.443 105.664 0)
+			(at 115.57 105.41 0)
 			(uuid "7b736b48-45f8-4934-9990-0d3efc5f4b8e")
 			(effects
 				(font
@@ -12947,7 +12947,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 115.443 108.204 0)
+			(at 115.57 107.95 0)
 			(uuid "d2544498-beb2-404c-9726-eb1e1357c6d7")
 			(effects
 				(font
@@ -12957,7 +12957,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 115.443 110.744 0)
+			(at 115.57 110.49 0)
 			(uuid "31eeeeb1-0634-4c97-895a-049cb37adc7f")
 			(effects
 				(font
@@ -12967,7 +12967,7 @@
 			)
 		)
 		(pin "SDO" output
-			(at 115.443 113.284 0)
+			(at 115.57 113.03 0)
 			(uuid "28099641-2e9c-4f6a-8e8e-aeb9fc0e63ff")
 			(effects
 				(font
@@ -12985,7 +12985,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 123.19)
+		(at 90.297 122.936)
 		(size 25.273 21.844)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13001,7 +13001,7 @@
 		)
 		(uuid "e0b67437-cb6f-4a1a-badb-cc4b74146847")
 		(property "Sheetname" "LCD"
-			(at 90.17 122.4784 0)
+			(at 90.297 122.2244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,7 +13010,7 @@
 			)
 		)
 		(property "Sheetfile" "mini-lhc-display-lcd.kicad_sch"
-			(at 90.17 145.6186 0)
+			(at 90.297 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +13019,7 @@
 			)
 		)
 		(pin "A0" input
-			(at 115.443 127.254 0)
+			(at 115.57 127 0)
 			(uuid "79f86323-df87-4d7c-9e74-9c017aba07c2")
 			(effects
 				(font
@@ -13029,7 +13029,7 @@
 			)
 		)
 		(pin "BL_EN" input
-			(at 115.443 142.494 0)
+			(at 115.57 142.24 0)
 			(uuid "3eeab063-e2db-4bb6-b84d-e6ebd407d858")
 			(effects
 				(font
@@ -13039,7 +13039,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 115.443 132.334 0)
+			(at 115.57 132.08 0)
 			(uuid "6ae6ad0c-50f1-4c59-bef3-27007b813d41")
 			(effects
 				(font
@@ -13049,7 +13049,7 @@
 			)
 		)
 		(pin "SDI" input
-			(at 115.443 134.874 0)
+			(at 115.57 134.62 0)
 			(uuid "b37913aa-4910-4ea7-8dde-debdffccbcb8")
 			(effects
 				(font
@@ -13059,7 +13059,7 @@
 			)
 		)
 		(pin "~{CS}" input
-			(at 115.443 129.794 0)
+			(at 115.57 129.54 0)
 			(uuid "837a407e-3800-4213-8c32-698f960f557f")
 			(effects
 				(font
@@ -13069,7 +13069,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 115.443 137.414 0)
+			(at 115.57 137.16 0)
 			(uuid "4dac8b9c-3aa2-475b-bff5-afc9df156e21")
 			(effects
 				(font
