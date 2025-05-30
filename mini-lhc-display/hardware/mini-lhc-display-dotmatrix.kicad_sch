@@ -5491,7 +5491,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 106.68) (xy 77.47 106.68)
+			(xy 76.2 106.68) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5551,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 106.68) (xy 77.47 107.95)
+			(xy 83.82 106.68) (xy 83.82 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5880,7 @@
 		(uuid "0099f6af-d7f9-4304-ac4a-1f2293d59164")
 	)
 	(label "A0"
-		(at 82.55 166.37 180)
+		(at 82.55 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,7 +5940,7 @@
 		(uuid "11b57afe-e237-4b93-b995-88d13a2ac2f7")
 	)
 	(label "~{RST}"
-		(at 82.55 116.84 180)
+		(at 82.55 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5990,7 +5990,7 @@
 		(uuid "20312e0c-a5c6-400c-9b53-8a490f4d6203")
 	)
 	(label "~{RD}"
-		(at 82.55 111.76 180)
+		(at 82.55 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6030,7 +6030,7 @@
 		(uuid "2a2f7aa3-2cbc-4bb4-aa2c-a2d4088eae76")
 	)
 	(label "~{CE}_AR"
-		(at 82.55 124.46 180)
+		(at 82.55 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6140,7 +6140,7 @@
 		(uuid "4f3e0b8a-7ee9-43f5-8a51-c870e394e65b")
 	)
 	(label "~{CE}_BR"
-		(at 82.55 129.54 180)
+		(at 82.55 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6260,7 +6260,7 @@
 		(uuid "6a41e496-97b6-4a93-af6c-7a2256a39ae3")
 	)
 	(label "A1"
-		(at 82.55 168.91 180)
+		(at 82.55 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6360,7 +6360,7 @@
 		(uuid "8b69f9b2-9744-48a1-ae21-3b43a37e88a0")
 	)
 	(label "A4"
-		(at 82.55 176.53 180)
+		(at 82.55 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6480,7 +6480,7 @@
 		(uuid "abf8fe4e-18e5-4392-9612-b497b91b2c78")
 	)
 	(label "A3"
-		(at 82.55 173.99 180)
+		(at 82.55 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6600,7 +6600,7 @@
 		(uuid "d098d07b-9e93-4ebb-a0b2-34c386e72f3d")
 	)
 	(label "~{WR}"
-		(at 82.55 114.3 180)
+		(at 82.55 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6630,7 +6630,7 @@
 		(uuid "da08cad8-2352-4c35-9445-f67b1e1358c5")
 	)
 	(label "~{CE}_BL"
-		(at 82.3917 127 180)
+		(at 82.55 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6640,7 +6640,7 @@
 		(uuid "dbc9e166-a470-4524-99b1-ff96411e5244")
 	)
 	(label "FL"
-		(at 82.55 119.38 180)
+		(at 82.55 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6710,7 +6710,7 @@
 		(uuid "e24bf803-1e32-4d73-b6cb-1e328c67706b")
 	)
 	(label "~{CE}_AL"
-		(at 82.55 121.92 180)
+		(at 82.3917 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6851,7 +6851,7 @@
 	)
 	(hierarchical_label "MTX_~{CE_C}"
 		(shape input)
-		(at 35.56 128.27 180)
+		(at 35.56 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6862,7 +6862,7 @@
 	)
 	(hierarchical_label "MTX_~{WR}"
 		(shape input)
-		(at 35.56 113.03 180)
+		(at 35.56 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6873,7 +6873,7 @@
 	)
 	(hierarchical_label "MTX_~{RD}"
 		(shape input)
-		(at 35.56 110.49 180)
+		(at 35.56 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6895,7 +6895,7 @@
 	)
 	(hierarchical_label "MTX_~{CE_B}"
 		(shape input)
-		(at 35.56 125.73 180)
+		(at 35.56 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6917,7 +6917,7 @@
 	)
 	(hierarchical_label "MTX_FLASH"
 		(shape input)
-		(at 35.56 118.11 180)
+		(at 35.56 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6928,7 +6928,7 @@
 	)
 	(hierarchical_label "MTX_~{CE_D}"
 		(shape input)
-		(at 35.56 130.81 180)
+		(at 35.56 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6937,7 +6937,7 @@
 		)
 		(uuid "4f0e0849-48af-430f-938f-4b24218a49e8")
 	)
-	(hierarchical_label "MTX_ADDR1"
+	(hierarchical_label "MTX_ADDR3"
 		(shape input)
 		(at 35.56 168.91 180)
 		(effects
@@ -6948,7 +6948,7 @@
 		)
 		(uuid "7d9a16d8-f914-4f9e-b513-bb3682836cb4")
 	)
-	(hierarchical_label "MTX_ADDR0"
+	(hierarchical_label "MTX_ADDR4"
 		(shape input)
 		(at 35.56 166.37 180)
 		(effects
@@ -6970,7 +6970,7 @@
 		)
 		(uuid "9b23a250-3172-4a48-8dad-7d2e23f7b882")
 	)
-	(hierarchical_label "MTX_ADDR4"
+	(hierarchical_label "MTX_ADDR0"
 		(shape input)
 		(at 35.56 176.53 180)
 		(effects
@@ -6992,7 +6992,7 @@
 		)
 		(uuid "c0bfe630-2e06-4b3e-9198-5ca9f9692586")
 	)
-	(hierarchical_label "MTX_ADDR3"
+	(hierarchical_label "MTX_ADDR1"
 		(shape input)
 		(at 35.56 173.99 180)
 		(effects
@@ -7038,7 +7038,7 @@
 	)
 	(hierarchical_label "MTX_~{CE_A}"
 		(shape input)
-		(at 35.56 123.19 180)
+		(at 35.56 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,7 +7071,7 @@
 	)
 	(hierarchical_label "MTX_~{RESET}"
 		(shape input)
-		(at 35.56 115.57 180)
+		(at 35.56 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,7 +8139,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 107.95 0)
+		(at 83.82 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8147,7 +8147,7 @@
 		(dnp no)
 		(uuid "5c79c850-22db-43d0-89c3-a1b835131a93")
 		(property "Reference" "#PWR030"
-			(at 77.47 114.3 0)
+			(at 83.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 108.204 0)
+			(at 83.566 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 107.95 0)
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 107.95 0)
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 107.95 0)
+			(at 83.82 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

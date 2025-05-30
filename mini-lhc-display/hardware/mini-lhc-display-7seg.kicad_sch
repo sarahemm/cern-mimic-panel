@@ -4736,7 +4736,7 @@
 		)
 		(uuid "1e8db79e-5919-4296-94ae-c7f087c88f35")
 	)
-	(label "A_DIG4"
+	(label "A_DIG7"
 		(at 137.16 129.54 0)
 		(effects
 			(font
@@ -4946,7 +4946,7 @@
 		)
 		(uuid "6e21d2c1-97fe-4b6d-85c8-acd2ff0422d6")
 	)
-	(label "A_DIG5"
+	(label "A_DIG6"
 		(at 165.1 129.54 0)
 		(effects
 			(font
@@ -4996,7 +4996,7 @@
 		)
 		(uuid "8eae94da-b3dd-4739-b68b-a5eaa8b71ce1")
 	)
-	(label "A_DIG6"
+	(label "A_DIG5"
 		(at 193.04 129.54 0)
 		(effects
 			(font
@@ -5176,7 +5176,7 @@
 		)
 		(uuid "d18c7145-2543-47a1-8565-56e0243a6e7e")
 	)
-	(label "A_DIG7"
+	(label "A_DIG4"
 		(at 220.98 129.54 0)
 		(effects
 			(font
