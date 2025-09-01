@@ -6824,7 +6824,7 @@
 		(uuid "03bd55d9-d20a-4241-83c7-876adc945905")
 	)
 	(label "C_B3"
-		(at 102.87 106.68 0)
+		(at 102.87 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6854,7 +6854,7 @@
 		(uuid "165d5fe4-7e3c-44f6-b750-a9a004751c92")
 	)
 	(label "C20"
-		(at 147.32 57.15 0)
+		(at 147.32 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6904,7 +6904,7 @@
 		(uuid "23b075f4-03de-40e5-9f17-3c79559aba74")
 	)
 	(label "C27"
-		(at 147.32 114.3 0)
+		(at 228.6 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6914,7 +6914,7 @@
 		(uuid "278c9b1a-8ba8-40dc-a036-4386cb8a9291")
 	)
 	(label "C_G4"
-		(at 102.87 121.92 0)
+		(at 102.87 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6954,7 +6954,7 @@
 		(uuid "319f7312-eb87-46b2-91e8-ad439ec52a56")
 	)
 	(label "C_B4"
-		(at 102.87 124.46 0)
+		(at 102.87 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6964,7 +6964,7 @@
 		(uuid "324098ba-01f3-435a-8a48-375a3e26ded8")
 	)
 	(label "C_B0"
-		(at 102.87 45.72 0)
+		(at 102.87 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7004,7 +7004,7 @@
 		(uuid "3c8c44ab-db92-4558-83f1-2aac744d2d74")
 	)
 	(label "C_R3"
-		(at 102.87 101.6 0)
+		(at 102.87 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7014,7 +7014,7 @@
 		(uuid "3fa1111a-9476-42da-ac97-1872b39796c8")
 	)
 	(label "C38"
-		(at 228.6 106.68 0)
+		(at 147.32 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7074,7 +7074,7 @@
 		(uuid "44295907-3aca-4899-81d7-30dc84584394")
 	)
 	(label "C37"
-		(at 228.6 101.6 0)
+		(at 228.6 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7134,7 +7134,7 @@
 		(uuid "56b2c5db-58f1-4a82-b15b-d61ef2dd24b0")
 	)
 	(label "C_B2"
-		(at 102.87 88.9 0)
+		(at 102.87 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7164,7 +7164,7 @@
 		(uuid "5bede7fb-cec1-415a-a380-fcd34403cdab")
 	)
 	(label "C_G3"
-		(at 102.87 104.14 0)
+		(at 102.87 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7214,7 +7214,7 @@
 		(uuid "6619185f-2c6d-4b9b-a00e-0a7f6bbaa48b")
 	)
 	(label "C24"
-		(at 147.32 92.71 0)
+		(at 147.32 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 		(uuid "7358a220-a5a5-4acf-83bf-7033fb639afd")
 	)
 	(label "C36"
-		(at 228.6 119.38 0)
+		(at 228.6 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7294,7 +7294,7 @@
 		(uuid "75a168f3-aa94-4fce-99d7-a08bc28ef7e7")
 	)
 	(label "C26"
-		(at 147.32 107.95 0)
+		(at 147.32 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7304,7 +7304,7 @@
 		(uuid "7cd69d35-3766-492d-ae0e-92e03d4c32a0")
 	)
 	(label "C_R0"
-		(at 102.87 40.64 0)
+		(at 102.87 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7354,7 +7354,7 @@
 		(uuid "843362e7-9f88-47cc-865b-5dd7b028f282")
 	)
 	(label "C25"
-		(at 147.32 101.6 0)
+		(at 147.32 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,7 +7364,7 @@
 		(uuid "8644b11b-098f-4dfd-b7a8-37f0ca734585")
 	)
 	(label "C_G2"
-		(at 102.87 86.36 0)
+		(at 102.87 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7394,7 +7394,7 @@
 		(uuid "8fb5a981-db85-45d9-b82a-b2a0c29a02dc")
 	)
 	(label "C41"
-		(at 228.6 142.24 0)
+		(at 228.6 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7424,7 +7424,7 @@
 		(uuid "9535b338-94bb-476a-8c4c-358f62fe5024")
 	)
 	(label "C21"
-		(at 147.32 63.5 0)
+		(at 147.32 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7464,7 +7464,7 @@
 		(uuid "9d8f7ba2-4129-47de-90b7-3661c7c2bf2f")
 	)
 	(label "C_R2"
-		(at 102.87 83.82 0)
+		(at 102.87 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7664,7 +7664,7 @@
 		(uuid "dd3ec05f-b280-40e7-94d7-a313e7d0379d")
 	)
 	(label "C_R4"
-		(at 102.87 119.38 0)
+		(at 102.87 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7704,7 +7704,7 @@
 		(uuid "f4f9c77e-9374-463d-bb27-4a9582091430")
 	)
 	(label "C_G0"
-		(at 102.87 43.18 0)
+		(at 102.87 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 121.92 0)
 			(effects
 				(font
@@ -8080,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 205.232 104.14 0)
 			(effects
 				(font
@@ -8816,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 43.18 0)
 			(effects
 				(font
@@ -9103,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 205.232 43.18 0)
 			(effects
 				(font
@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 77.47 0)
 			(effects
 				(font
@@ -9936,7 +9936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 205.232 60.96 0)
 			(effects
 				(font
@@ -10075,7 +10075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 205.232 77.47 0)
 			(effects
 				(font
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 104.14 0)
 			(effects
 				(font
@@ -10303,7 +10303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 60.96 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x1206"
 			(at 242.062 139.7 0)
 			(effects
 				(font
