@@ -1494,6 +1494,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "WHY ARE THESE CONNECTED?"
+		(exclude_from_sim no)
+		(at 43.18 89.916 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cdae93c4-73a8-4af6-be7f-c69d794b88fc")
+	)
 	(junction
 		(at 86.36 72.39)
 		(diameter 0)

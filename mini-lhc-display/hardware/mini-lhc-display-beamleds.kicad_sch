@@ -6033,7 +6033,7 @@
 		(uuid "ff690be6-a983-46c1-8608-70e456238aad")
 	)
 	(label "C39"
-		(at 195.58 93.98 0)
+		(at 115.57 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6063,7 +6063,7 @@
 		(uuid "07af44a7-4636-447c-9500-ac787e3ac187")
 	)
 	(label "C12"
-		(at 83.82 88.9 0)
+		(at 83.82 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 		(uuid "0c77f6fc-7c6b-4e67-bf5f-0489c1690183")
 	)
 	(label "C3"
-		(at 163.83 63.5 0)
+		(at 163.83 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6083,7 +6083,7 @@
 		(uuid "0d604dce-aa03-4635-86fc-338f26d0a528")
 	)
 	(label "C8"
-		(at 83.82 78.74 0)
+		(at 83.82 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6093,7 +6093,7 @@
 		(uuid "0ec8ccdf-6265-427a-bea8-3cd26af6792b")
 	)
 	(label "C41"
-		(at 195.58 99.06 0)
+		(at 195.58 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 		(uuid "108eb0b3-4134-4bf0-a2f3-b80f23908746")
 	)
 	(label "C30"
-		(at 115.57 73.66 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6113,7 +6113,7 @@
 		(uuid "131ed1a5-e376-4261-9d40-c78b881dc1fe")
 	)
 	(label "C27"
-		(at 195.58 63.5 0)
+		(at 195.58 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6123,7 +6123,7 @@
 		(uuid "1ba3340e-8e90-462f-b75a-4625b784135b")
 	)
 	(label "C32"
-		(at 115.57 78.74 0)
+		(at 195.58 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6153,7 +6153,7 @@
 		(uuid "239bea26-1051-443c-bc6d-94f52954a7ac")
 	)
 	(label "C38"
-		(at 115.57 93.98 0)
+		(at 83.82 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6183,7 +6183,7 @@
 		(uuid "3297000d-90aa-41ef-b9d0-f78c27a0acdd")
 	)
 	(label "C0"
-		(at 83.82 58.42 0)
+		(at 163.83 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6193,7 +6193,7 @@
 		(uuid "371304a5-5e0d-4140-b6d2-aeb49aef68d9")
 	)
 	(label "C19"
-		(at 163.83 104.14 0)
+		(at 115.57 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6213,7 +6213,7 @@
 		(uuid "3b10ffd8-c505-4cb1-890b-b857db17a728")
 	)
 	(label "C35"
-		(at 195.58 83.82 0)
+		(at 195.58 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,7 +6253,7 @@
 		(uuid "3f5af013-30d5-418f-ac2b-6176f4759a6a")
 	)
 	(label "C1"
-		(at 163.83 58.42 0)
+		(at 163.83 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6283,7 +6283,7 @@
 		(uuid "42a8256a-fca4-4c71-9fab-65fecbd106b0")
 	)
 	(label "C2"
-		(at 83.82 63.5 0)
+		(at 83.82 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6303,7 +6303,7 @@
 		(uuid "45067b27-27e0-448e-810c-08c9e46eeeb4")
 	)
 	(label "C47"
-		(at 195.58 114.3 0)
+		(at 115.57 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6323,7 +6323,7 @@
 		(uuid "45a1d996-181d-496a-8e4d-c6045a4775c5")
 	)
 	(label "C44"
-		(at 115.57 109.22 0)
+		(at 115.57 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6363,7 +6363,7 @@
 		(uuid "516af689-4310-465b-9ea6-064e9307a3a9")
 	)
 	(label "C9"
-		(at 163.83 78.74 0)
+		(at 115.57 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6473,7 +6473,7 @@
 		(uuid "7459bfb2-7148-4dbe-98cb-0f7b9b288de6")
 	)
 	(label "C31"
-		(at 195.58 73.66 0)
+		(at 195.58 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 		(uuid "75dcba7d-b167-4d1b-a1e3-55e2ec2c31c9")
 	)
 	(label "C7"
-		(at 163.83 73.66 0)
+		(at 163.83 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6493,7 +6493,7 @@
 		(uuid "79e06d81-e228-4254-848e-a5a99c04aef5")
 	)
 	(label "C22"
-		(at 83.82 114.3 0)
+		(at 163.83 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6523,7 +6523,7 @@
 		(uuid "8503e3c6-9017-4040-98e9-13af8a0ddecd")
 	)
 	(label "C28"
-		(at 115.57 68.58 0)
+		(at 115.57 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6553,7 +6553,7 @@
 		(uuid "8eb5680c-b75c-42a9-bf6d-21654a4ca55a")
 	)
 	(label "C36"
-		(at 115.57 88.9 0)
+		(at 115.57 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6593,7 +6593,7 @@
 		(uuid "9887c501-dec7-4736-989e-daae19c5efe6")
 	)
 	(label "C13"
-		(at 163.83 88.9 0)
+		(at 163.83 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6603,7 +6603,7 @@
 		(uuid "9b11cf0d-eaf2-4963-9b2e-3c3f260d098a")
 	)
 	(label "C10"
-		(at 83.82 83.82 0)
+		(at 195.58 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 		(uuid "9ffca07e-e929-4d60-9042-0ab65c1244e0")
 	)
 	(label "C24"
-		(at 115.57 58.42 0)
+		(at 83.82 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6633,7 +6633,7 @@
 		(uuid "a6113e4b-bbae-4a1b-97e9-c6086c27499d")
 	)
 	(label "C45"
-		(at 195.58 109.22 0)
+		(at 195.58 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6643,7 +6643,7 @@
 		(uuid "a94ae128-4278-4955-a195-aab5df78a03c")
 	)
 	(label "C26"
-		(at 115.57 63.5 0)
+		(at 163.83 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6653,7 +6653,7 @@
 		(uuid "abea20b9-3b3c-4122-8688-659b351f324f")
 	)
 	(label "C11"
-		(at 163.83 83.82 0)
+		(at 195.58 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6693,7 +6693,7 @@
 		(uuid "b5393f6a-fe06-4f6c-8ddc-7176d4125a45")
 	)
 	(label "C4"
-		(at 83.82 68.58 0)
+		(at 83.82 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6703,7 +6703,7 @@
 		(uuid "b7dd13c6-b98d-4e79-be85-0f896829af8e")
 	)
 	(label "C43"
-		(at 195.58 104.14 0)
+		(at 115.57 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6713,7 +6713,7 @@
 		(uuid "b8254378-18c3-46ea-8409-aaba3cda3c1d")
 	)
 	(label "C21"
-		(at 163.83 109.22 0)
+		(at 83.82 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6733,7 +6733,7 @@
 		(uuid "bb568635-48a4-42d4-8d19-a132a6c6f1a8")
 	)
 	(label "C25"
-		(at 195.58 58.42 0)
+		(at 83.82 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6753,7 +6753,7 @@
 		(uuid "c62abcce-318f-46ce-9ddf-8aa4943d6419")
 	)
 	(label "C5"
-		(at 163.83 68.58 0)
+		(at 163.83 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6773,7 +6773,7 @@
 		(uuid "d44c30c5-610a-4e4f-bcfc-8264839c5999")
 	)
 	(label "C46"
-		(at 115.57 114.3 0)
+		(at 115.57 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6793,7 +6793,7 @@
 		(uuid "d51daa2f-5d60-4503-9f24-e7213c983c7d")
 	)
 	(label "C33"
-		(at 195.58 78.74 0)
+		(at 195.58 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6823,7 +6823,7 @@
 		(uuid "dc6849e5-f4ba-417a-8acc-678186956ffe")
 	)
 	(label "C37"
-		(at 195.58 88.9 0)
+		(at 195.58 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6853,7 +6853,7 @@
 		(uuid "e5b04ffa-dfa5-4ffd-b2b8-b9671b2d2d67")
 	)
 	(label "C40"
-		(at 115.57 99.06 0)
+		(at 195.58 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 		(uuid "e7aa0d88-fcdb-49f7-b8b6-4d534fd233f9")
 	)
 	(label "C14"
-		(at 83.82 93.98 0)
+		(at 163.83 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6903,7 +6903,7 @@
 		(uuid "e9db4642-2f75-4d4e-8ead-ffe99ec4fd93")
 	)
 	(label "C42"
-		(at 115.57 104.14 0)
+		(at 195.58 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6933,7 +6933,7 @@
 		(uuid "f302af04-1f8f-4335-a809-f6647530d9fb")
 	)
 	(label "C34"
-		(at 115.57 83.82 0)
+		(at 115.57 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6953,7 +6953,7 @@
 		(uuid "f6511a1a-2c8a-4ac5-bfde-1ded57fe9862")
 	)
 	(label "C29"
-		(at 195.58 68.58 0)
+		(at 115.57 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,7 +6963,7 @@
 		(uuid "fd7f77d4-bbaf-45f8-9b21-9b01991042a7")
 	)
 	(label "C6"
-		(at 83.82 73.66 0)
+		(at 83.82 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
