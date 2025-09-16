@@ -29,3 +29,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+mini-lhc-display/hardware/cam/*.zip
+cern-display-controller/hardware/cam/*.zip
