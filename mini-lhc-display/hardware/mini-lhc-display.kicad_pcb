@@ -8559,13 +8559,13 @@
 		(attr smd)
 		(fp_line
 			(start -21.465 -5.715)
-			(end -21.465 5.715)
+			(end -21.465 4.462157)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "75bb08cd-198d-4fee-a36a-b259a50ed72f")
+			(uuid "82a3a88c-e9fe-43aa-95a9-ac0b3f010479")
 		)
 		(fp_line
 			(start -21.465 -5.715)
@@ -8575,17 +8575,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d83f8cb2-179c-4e6b-b7b2-6ca71e5c7115")
+			(uuid "07960806-953b-4a51-a664-d184cdde6a5f")
 		)
 		(fp_line
-			(start -21.465 5.715)
+			(start -21.465 4.462157)
+			(end -20.217248 5.715)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c2d9d48c-a103-476a-ada9-16ff19207edc")
+		)
+		(fp_line
+			(start -20.217248 5.715)
 			(end 21.465 5.715)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4a9fb7c4-dd3e-4751-b8c9-da67bee98f0b")
+			(uuid "9f0ef83f-fc1c-4592-9ab7-4da2fc9b60d8")
 		)
 		(fp_line
 			(start 21.465 -5.715)
@@ -8595,7 +8605,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ebb0445d-cb5c-46b2-b98e-c79d9a724e20")
+			(uuid "10399ac2-04ff-4987-bede-723d5a323061")
 		)
 		(fp_rect
 			(start -21.571963 -5.832946)
@@ -8606,7 +8616,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "09d91d8e-5c5a-4549-9608-9f4b823dcf41")
+			(uuid "564ebcbc-dacf-43fb-86ec-900860de2ec7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -8961,13 +8971,13 @@
 		(attr smd)
 		(fp_line
 			(start -21.465 -5.715)
-			(end -21.465 5.715)
+			(end -21.465 4.462157)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d472c6ce-faf9-4e8d-9f00-64b0bbb13b8a")
+			(uuid "f2057e4e-4b93-4e54-9a29-5fda167ae751")
 		)
 		(fp_line
 			(start -21.465 -5.715)
@@ -8977,17 +8987,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a4287d92-8560-484e-80b0-898da5902340")
+			(uuid "68ecd215-b444-4e0f-b642-1553da659824")
 		)
 		(fp_line
-			(start -21.465 5.715)
+			(start -21.465 4.462157)
+			(end -20.217248 5.715)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5a57de24-4cc8-44ab-a0db-9ebc38315703")
+		)
+		(fp_line
+			(start -20.217248 5.715)
 			(end 21.465 5.715)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05fd1204-fe81-499f-b7b3-dda39a385e2b")
+			(uuid "9b94d130-f92c-4f09-be93-d740b229b5ee")
 		)
 		(fp_line
 			(start 21.465 -5.715)
@@ -8997,7 +9017,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a9327d4f-89ed-498a-abd3-c11674b196ec")
+			(uuid "ecdf78de-a4b5-4f5e-a86b-f3dc34a2af64")
 		)
 		(fp_rect
 			(start -21.571963 -5.832946)
@@ -9008,7 +9028,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e10b065e-3739-4719-b015-8cb372175ebd")
+			(uuid "2c3d3046-cf71-4a93-9263-f4542118acab")
 		)
 		(fp_text user "UNVERIFIED - DO NOT USE FOOTPRINT YET"
 			(at 0 -1.27 0)
@@ -17586,13 +17606,13 @@
 		(attr smd)
 		(fp_line
 			(start -21.465 -5.715)
-			(end -21.465 5.715)
+			(end -21.465 4.462157)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5bd0adba-05b9-4723-8ae9-b960a055db4b")
+			(uuid "397dda94-4fa5-4dd7-be52-c78779be16d0")
 		)
 		(fp_line
 			(start -21.465 -5.715)
@@ -17602,17 +17622,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b9cdee31-a4a0-42c5-a3de-84e5e38ac3ad")
+			(uuid "a707fe6c-08e6-4ee7-a96d-853aa6d4723a")
 		)
 		(fp_line
-			(start -21.465 5.715)
+			(start -21.465 4.462157)
+			(end -20.217248 5.715)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3caa6aac-9c7e-4932-bd54-0f5d514d048e")
+		)
+		(fp_line
+			(start -20.217248 5.715)
 			(end 21.465 5.715)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "53317172-e285-40c1-911d-dc565afc108c")
+			(uuid "2656ec44-0d21-4cbb-8aa8-054ee41c32cf")
 		)
 		(fp_line
 			(start 21.465 -5.715)
@@ -17622,7 +17652,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "762c8305-f8f4-4a14-b7c5-671dd2350be7")
+			(uuid "c16baad1-85f8-4d32-b779-ba20d494360b")
 		)
 		(fp_rect
 			(start -21.571963 -5.832946)
@@ -17633,7 +17663,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d5539545-9b09-4399-a7e7-67d77e59eb6e")
+			(uuid "39b02523-63d8-43c7-adc3-4e72e7981fa9")
 		)
 		(fp_text user "UNVERIFIED - DO NOT USE FOOTPRINT YET"
 			(at 0 -1.27 0)
@@ -18816,13 +18846,13 @@
 		(attr smd)
 		(fp_line
 			(start -21.465 -5.715)
-			(end -21.465 5.715)
+			(end -21.465 4.462157)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f3dbb4ee-02e4-4e31-8fd7-73c004a34962")
+			(uuid "6fa19a8e-423f-4919-9809-e3354537a37d")
 		)
 		(fp_line
 			(start -21.465 -5.715)
@@ -18832,17 +18862,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "240a9616-9058-44c8-9cc8-f2132df0e1b0")
+			(uuid "aa81618e-79c6-4e0b-b402-2a3fd3ccb9ce")
 		)
 		(fp_line
-			(start -21.465 5.715)
+			(start -21.465 4.462157)
+			(end -20.217248 5.715)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "69111dfc-dde4-49b9-b165-849b72612d44")
+		)
+		(fp_line
+			(start -20.217248 5.715)
 			(end 21.465 5.715)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ce2b3933-b55c-450d-b458-9c64174e724c")
+			(uuid "0e859882-537d-4322-85a7-1255079a1a89")
 		)
 		(fp_line
 			(start 21.465 -5.715)
@@ -18852,7 +18892,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c4d51575-81b2-4187-aef8-a99603b0f594")
+			(uuid "e5b908ac-ebdd-43ee-98f0-3994c41c2643")
 		)
 		(fp_rect
 			(start -21.571963 -5.832946)
@@ -18863,7 +18903,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "45a258f6-834f-44fd-98ea-033f9a2cb94a")
+			(uuid "793384a1-53a6-416e-97a3-5452e86b07ef")
 		)
 		(fp_text user "UNVERIFIED - DO NOT USE FOOTPRINT YET"
 			(at 0 -1.27 0)
@@ -35543,7 +35583,7 @@
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 4.05 0)
+			(at 0 -4.155 0)
 			(layer "B.SilkS")
 			(uuid "d044d0b9-19bf-4cba-9a91-2e6b8926e6df")
 			(effects
@@ -42936,7 +42976,7 @@
 		)
 	)
 	(gr_text "GSCLK\n"
-		(at 115.57 131.445 180)
+		(at 120.523 132.588 0)
 		(layer "B.SilkS")
 		(uuid "ce2fd6d9-7c83-48e3-8f53-f6edcc16d2ad")
 		(effects
@@ -42969,6 +43009,19 @@
 				(thickness 0.1524)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "Reset"
+		(at 121.412 104.267 0)
+		(layer "B.SilkS")
+		(uuid "d959b2cc-da8b-4fb7-a0a2-c0051d5259d8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "7SEG\nSDA"
