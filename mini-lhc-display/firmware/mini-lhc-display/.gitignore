@@ -1,0 +1,8 @@
+mini-lhc-display.X/build/
+mini-lhc-display.X/dist/
+mini-lhc-display.X/debug/
+mini-lhc-display.X/queuelogs
+mini-lhc-display.X/.generated_files
+mini-lhc-display.X/nbproject/private
+mini-lhc-display.X/*.log
+mini-lhc-display.X/*.log.inx
